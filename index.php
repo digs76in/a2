@@ -61,10 +61,11 @@
                                
         </form>
          
-        <h4>
-                 <?php if(!empty($tabPerPerson)) echo "Everybody owes $" . $tabPerPerson;?>
-        </h4>
-             
+        <?php if(!empty($tabPerPerson)): ?>
+        <div class="alert alert-success">
+            Everybody owes $<?php echo $tabPerPerson; ?>
+        </div>
+        <?php endif; ?>
                 
         
     </div>
