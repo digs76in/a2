@@ -3,30 +3,7 @@
 */
 
 
-* { font-family: tahoma,arial,helvetica,sans-serif;}
-.questionchoices { padding-left: 0.5em; }
-legend { font-weight: bold; }
-input, select { border: thin solid black; } 
-
-/* error class gets applied by jQuery Validate */
-input.error { border: thin solid red; }
-label.error {
-    background: url('../images/red_x.gif') no-repeat;
-    padding-left: 16px;
-    margin-left: .3em;
-    color: red;
-}
-.submit{
-    background-color: #a71d1d;
-    font-size: 1em;
-    color: #f2f9ff;
-}
 .asterisk {
   color: red;
 }
-
-.server_error {
-    color: #FF0000;
-}
-
 
